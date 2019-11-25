@@ -26,7 +26,7 @@ SECRET_KEY = '=z2&b&9!6zn8pbeizazw01s8hg42$b-@v+$wd8^3@n(cp(^cl2'
 DEBUG = True
 # DEBUG = True
 
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['rsg3478.pythonanywhere.com']
 ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1']
 
@@ -124,3 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
